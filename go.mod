@@ -1,6 +1,6 @@
 module github.com/minio/operator
 
-go 1.22.5
+go 1.24.13
 
 require (
 	github.com/blang/semver/v4 v4.0.0
@@ -8,8 +8,7 @@ require (
 	github.com/dustin/go-humanize v1.0.1 // indirect
 	github.com/fatih/color v1.17.0 // indirect
 	github.com/go-openapi/swag v0.23.0 // indirect
-	github.com/golang-jwt/jwt v3.2.2+incompatible
-	github.com/golang-jwt/jwt/v4 v4.5.0 // indirect
+	github.com/golang-jwt/jwt/v4 v4.5.2 // indirect
 	github.com/google/go-containerregistry v0.19.2
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/gorilla/mux v1.8.1
@@ -26,12 +25,12 @@ require (
 	github.com/rs/xid v1.5.0 // indirect
 	github.com/secure-io/sio-go v0.3.1 // indirect
 	github.com/stretchr/testify v1.9.0
-	golang.org/x/crypto v0.24.0
-	golang.org/x/net v0.26.0 // indirect
-	golang.org/x/oauth2 v0.21.0
+	golang.org/x/crypto v0.48.0
+	golang.org/x/net v0.49.0 // indirect
+	golang.org/x/oauth2 v0.27.0
 	// Added to include security fix for
 	// https://github.com/golang/go/issues/56152
-	golang.org/x/text v0.16.0 // indirect
+	golang.org/x/text v0.34.0 // indirect
 	golang.org/x/time v0.5.0
 	gopkg.in/yaml.v2 v2.4.0
 	k8s.io/api v0.30.2
@@ -45,8 +44,9 @@ require (
 
 require (
 	github.com/go-test/deep v1.1.1
+	github.com/golang-jwt/jwt v3.2.2+incompatible
 	github.com/minio/kes-go v0.2.1
-	golang.org/x/mod v0.18.0
+	golang.org/x/mod v0.32.0
 	sigs.k8s.io/controller-runtime v0.18.4
 )
 
@@ -115,10 +115,10 @@ require (
 	github.com/yusufpapurcu/wmi v1.2.4 // indirect
 	go.uber.org/zap v1.27.0 // indirect
 	golang.org/x/exp v0.0.0-20220909182711-5c715a9e8561 // indirect
-	golang.org/x/sync v0.7.0 // indirect
-	golang.org/x/sys v0.21.0 // indirect
-	golang.org/x/term v0.21.0 // indirect
-	golang.org/x/tools v0.22.0 // indirect
+	golang.org/x/sync v0.19.0 // indirect
+	golang.org/x/sys v0.41.0 // indirect
+	golang.org/x/term v0.40.0 // indirect
+	golang.org/x/tools v0.41.0 // indirect
 	google.golang.org/protobuf v1.34.2 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
